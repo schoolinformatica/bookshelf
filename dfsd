@@ -1,0 +1,72 @@
+[33mcommit d8528ec9715611c7356c9cf96256b67e9199e977[m
+Author: killerMert <mert_3377@hotmail.com>
+Date:   Mon May 18 01:28:27 2015 +0200
+
+    Updated GUI Design v0.1 - fix
+
+[33mcommit 731b4aa6f0b0c14894fa958a4fa6577d7713eccf[m
+Author: killerMert <mert_3377@hotmail.com>
+Date:   Mon May 18 01:06:25 2015 +0200
+
+    Revert "Updated Ui design v0.1"
+    
+    This reverts commit c3ed1129a5f66a2e36a107b77e3c45549a5c379f.
+
+[33mcommit c3ed1129a5f66a2e36a107b77e3c45549a5c379f[m
+Author: killerMert <mert_3377@hotmail.com>
+Date:   Mon May 18 01:05:08 2015 +0200
+
+    Updated Ui design v0.1
+    
+    Updated ui design, will continue further
+
+[33mcommit e3c6b222416eaf6bca6f93312f5cbfc0b00160e6[m
+Author: jls <jlssparreboom@gmail.com>
+Date:   Sun May 17 19:31:27 2015 +0200
+
+    Fixed manifest file (missing activities)
+
+[33mcommit 86c9ce370fcce3d861056ebb105dfce7d95fd0d4[m
+Author: killerMert <mert_3377@hotmail.com>
+Date:   Sun May 17 17:12:22 2015 +0200
+
+    gui
+    
+    gui update. app crash when trying to log in.
+
+[33mcommit 3c5d1a81357c5c419ba2ffaf302a3063b9bdffc4[m
+Author: jls <jlssparreboom@gmail.com>
+Date:   Thu May 14 21:30:45 2015 +0200
+
+    Added helper logs + commented several things
+
+[33mcommit 4fd992a184674cbc8cb838db76bc78976cc2f3cb[m
+Author: git-jls <jlssparreboom>
+Date:   Thu May 14 18:15:00 2015 +0200
+
+    Security class, User class && Queryhandler interface added
+
+[33mcommit 1d351090db6f988febf0ecaf84541d7ab517b3ef[m
+Author: unknown <w.roode@gmail.com>
+Date:   Tue May 12 16:42:35 2015 +0200
+
+    Added Book class
+
+[33mcommit 2df86cce6dd99f43ab19544417a36a0468f11213[m
+Merge: 2b353f8 3d31d67
+Author: git-jls <jlssparreboom>
+Date:   Mon May 11 12:58:16 2015 +0200
+
+    Merge branch 'master' of github.com:SDevelopment/BookShelf
+
+[33mcommit 2b353f8468948834ff2752f2546ed042e8b586c9[m
+Author: git-jls <jlssparreboom>
+Date:   Mon May 11 12:56:29 2015 +0200
+
+    initial commit
+
+[33mcommit 3d31d672acd24d682b9f4d742e1cd2cef4403235[m
+Author: Sjors Sparreboom <sjorssparreboom@gmail.com>
+Date:   Mon May 11 12:45:28 2015 +0200
+
+    Initial commit

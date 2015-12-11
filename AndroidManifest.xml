@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.BookShelf"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="15"
+              android:targetSdkVersion="21"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+            android:name="com.example.BookShelf.gcm.permission.C2D_MESSAGE"
+            android:protectionLevel="signature"/>
+    <uses-permission android:name="com.example.BookShelf.gcm.permission.C2D_MESSAGE"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher">
+        <activity android:name="com.example.bookshelf.activities.MainAcitivty"
+                  android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+                  android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.bookshelf.activities.LoginActivity"/>
+        <activity android:name="com.example.bookshelf.activities.UserRegisterActivity"/>
+        <activity android:name="com.example.bookshelf.activities.BookshelfActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.example.bookshelf.activities.NewBookActivity"
+                  android:parentActivityName="com.example.bookshelf.activities.BookshelfActivity"/>
+        <activity android:name="com.example.bookshelf.activities.FriendlistActivity"
+                  android:parentActivityName="com.example.bookshelf.activities.BookshelfActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.example.bookshelf.activities.NewFriendActivity"
+                  android:parentActivityName="com.example.bookshelf.activities.FriendlistActivity"/>
+        <activity android:name="com.example.bookshelf.activities.FriendBookshelfActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:parentActivityName="com.example.bookshelf.activities.FriendlistActivity"/>
+        <activity android:name="com.example.bookshelf.activities.RequestBookActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:parentActivityName="com.example.bookshelf.activities.BookshelfActivity"/>
+        <activity android:name="com.example.bookshelf.activities.BookDetailsActivity"
+                  android:parentActivityName="com.example.bookshelf.activities.BookDetailsActivity"/>
+        <activity android:name="com.example.bookshelf.activities.LoanBookDetailsActivity"
+                  android:parentActivityName="com.example.bookshelf.activities.LoanBookDetailsActivity"/>
+        <receiver
+                android:name="com.example.bookshelf.notification.GcmReceiver"
+                android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.hmkcode.android.gcm"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.example.bookshelf.notification.GcmHandler"/>
+
+        <meta-data android:name="com.google.android.gms.version"
+                   android:value="25"/>
+    </application>
+</manifest>

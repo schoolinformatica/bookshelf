@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        style="@style/image"
+                        android:id="@+id/ivBook"/>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/text.title"
+                            android:id="@+id/tvTitle"
+                            android:text="Titel: Niet beschikbaar."/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/text"
+                            android:id="@+id/tvAuthor"
+                            android:text="Auteur: Niet beschikbaar."/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/text"
+                            android:id="@+id/tvRelease"
+                            android:text="Uitgave datum: Nietbeschikbaar."/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    style="@style/divider"
+                    android:id="@+id/divider1"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text"
+                    android:id="@+id/tvGenre"
+                    android:text="Categorie: Niet beschikbaar"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text"
+                    android:id="@+id/tvPages"
+                    android:text="Aantal paginas: Niet beschikbaar."/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text"
+                    android:id="@+id/tvPrint"
+                    android:text="Kaft: Niet beschikbaar."/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text"
+                    android:id="@+id/tvISBN"
+                    android:text="ISBN: Niet beschikbaar."/>
+            <!--
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/text"
+                                android:id="@+id/tvStatus"
+                                android:text="Uitgeleend Ja/Nee"/>
+                                -->
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    style="@style/divider"
+                    android:id="@+id/divider2"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text"
+                    android:id="@+id/tvSummary"
+                    android:text="Samenvatting: Niet beschikbaar."/>
+
+            <!--
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                <Button android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        style="@style/button"
+                        android:text="Terug"
+                        android:id="@+id/btBack"/>
+                <Button android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button"
+                        style="@style/button"
+                        android:text="Uitlenen"
+                        android:id="@+id/btLend"/>
+            </LinearLayout>
+            -->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

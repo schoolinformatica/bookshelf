@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bookshelf</string>
+    <string name="connection_denied_error">Helaas, er kan niet worden verbonden met de web service...</string>
+    <string name="general_error">Oops er is een fout opgetreden!</string>
+    <string name="borrow_book_label">Leen boek(en)</string>
+    <string name="bookshelf_postfix">\'s boekenplank</string>
+    <string name="friendlist_postfix">\'s vriendenlijst</string>
+    <string name="selected_postfix">&#160;geselecteerd</string>
+    <string name="delete_friend_label">Verwijder vriend(en)</string>
+    <string name="add_friend_label">Voeg vriend(en) toe</string>
+    <string name="delete_friend_message">Weet je zeker dat je deze vriend(en) wilt verwijderen?</string>
+    <string name="delete_books_message">Weet je zeker dat je deze boek(en) wilt verwijderen?</string>
+    <string name="friend_postfix">&#160;vrienden</string>
+    <string name="delete_prefix">Verwijder&#160;</string>
+    <string name="email_textfield_hint">E-mail</string>
+    <string name="password_textfield_hint">Wachtwoord</string>
+    <string name="login_button_label">Inloggen</string>
+    <string name="registreren_button_label">Regisreren</string>
+    <string name="year_of_release_textfield_hint">Uitgave jaar</string>
+    <string name="author_textfield_hint">Auteur</string>
+    <string name="title_textfield_hint">Titel</string>
+    <string name="isbn_textfield_hint">ISBN</string>
+    <string name="isbn_invalid_message">ISBN is ongeldig!</string>
+    <string name="print_textfield_hint">Hardcover / Paperback</string>
+    <string name="pages_textfield_hint">Aantal pagina\'s</string>
+    <string name="image_textfield_hint">Afbeelding url</string>
+    <string name="category_textfield_hint">Genre</string>
+    <string name="summary_textfield_hint">Samenvatting</string>
+    <string name="next_button_label">Verder</string>
+    <string name="back_button_label">Terug</string>
+    <string name="required_field_message">ISBN, Titel en Auteur zijn verplichte velden!</string>
+    <string name="email_or_username_textfield_hint">Email of gebruikersnaam</string>
+    <string name="search_label">Zoek</string>
+    <string name="do_you_want_to_prefix">Wil je&#160;</string>
+    <string name="add_as_friend_postfix">&#160;toevoegen als vriend?</string>
+    <string name="friend_added_message">Vriend toegevoegd</string>
+    <string name="request_book_title">Boek aanvragen</string>
+    <string name="invalid_textfields_message">Sommige velden beschikken over invalide data</string>
+    <string name="delete_book_label">verwijder boek</string>
+    <string name="add_book_label">Boek toevoegen</string>
+    <string name="scan_book_label">Scan boek</string>
+    <string name="friendlist_label">Vriendenlijst</string>
+    <string name="request_book_label">Aanvragen</string>
+    <string name="logout_label">Logout</string>
+    <string name="author_prefix">Auteur:&#160;</string>
+    <string name="username_textfield_hint">Gebruikersnaam</string>
+    <string name="firstname_textfield_hint">Voornaam</string>
+    <string name="lastname_textfield_hint">Achternaam</string>
+    <string name="housenumber_textfield_hint">Huisnummer</string>
+    <string name="zip_textfield_hint">Postcode</string>
+    <string name="confirm_button_label">Bevestigen</string>
+    <string name="cancel_button_label">Annuleren</string>
+    <string name="add_friend_title">Vriend toevoegen</string>
+    <string name="book_postfix">&#160;boeken</string>
+    <string name="book_adding_error">Er was een probleem met het toevoegen van uw boek</string>
+    <string name="no_valid_book_data_available_message">Geen valide boek data aanwezig voor dit boek, check uw ISBN of
+        probeer handmatige invoer...
+    </string>
+    <string name="author_not_available_message">Auteur: Niet beschikbaar</string>
+    <string name="title_not_available_message">Titel: Niet Beschikbaar</string>
+    <string name="title_prefix">Titel:&#160;</string>
+    <string name="release_date_prefix">Uitgave datum:&#160;</string>
+    <string name="release_date_not_available_message">Uitgave datum: Niet beschikbaar</string>
+    <string name="category_prefix">Genre:&#160;</string>
+    <string name="category_not_available_message">Genre: Niet beschikbaar</string>
+    <string name="pages_prefix">Pagina\'s:&#160;</string>
+    <string name="pages_not_available_message">Pagina\'s: Niet beschikbaar</string>
+    <string name="print_prefx">Kaft:&#160;</string>
+    <string name="print_not_available_message">Kaft: Niet beschikbaar</string>
+    <string name="isbn_prefix">ISBN:&#160;</string>
+    <string name="isbn_not_available_message">ISBN: Niet beschikbaar</string>
+    <string name="summary_prefix">Samenvatting:&#160;</string>
+    <string name="summary_not_available_message">Samenvatting: Niet beschikbaar</string>
+    <string name="loading_book_failed_message">Laden van het boek mislukt!</string>
+    <string name="required_label">vereist</string>
+    <string name="postcode_label">postcode</string>
+    <string name="email_label">email</string>
+    <string name="hand_in_label">Boek inleveren</string>
+    <string name="take_in_label">Boek Innemen</string>
+    <string-array name="drawer">
+        <item>Open</item>
+        <item>Close</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="navigation_title">Navigation</string>
+    <string name="booklist_label">boekenplank</string>
+</resources>
